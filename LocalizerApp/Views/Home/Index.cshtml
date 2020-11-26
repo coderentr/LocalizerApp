@@ -1,0 +1,11 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    @using Microsoft.AspNetCore.Mvc.Localization
+    @inject IViewLocalizer Localizer
+}
+
+
+<p>@Localizer["Message"]</p>
+
+
+<p>@ViewBag.Message</p>
